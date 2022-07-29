@@ -41,7 +41,7 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: 'Anthony Setiadi Portfolio', //Project Title - Add Your Project Title Here
+      title: 'Portfolio', //Project Title - Add Your Project Title Here
       para: 'Simple and clean portfolio to showcase my recent works',
       //Project Image - Add Your Project Image Here
       imageSrc:
