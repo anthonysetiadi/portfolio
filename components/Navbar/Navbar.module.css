@@ -81,7 +81,7 @@
   position: fixed;
   top: 0;
   right: -100%;
-  justify-content: start;
+  justify-content: flex-start;
   width: 100%;
   z-index: 98;
   transition: all 0.5s ease;
@@ -98,6 +98,7 @@
     display: none;
   }
   .menuWrapper {
+    background: transparent;
     flex-direction: row;
     padding-top: 0;
     position: static;
