@@ -1,8 +1,5 @@
 .cardWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: block;
 }
 
 .upperCard {
@@ -38,13 +35,13 @@
 .cardLinks {
   display: flex;
   opacity: 1;
-  justify-content: space-between;
-  margin: 0 10%;
+  justify-content: space-around;
+  margin: 0;
   margin-top: 2%;
   position: static;
 }
 
-.cardLinks > a {
+.cardLinks a {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -61,8 +58,7 @@
   opacity: 1;
 }
 
-.cardWrapper > .content {
-  font-family: 'Open Sans', sans-serif;
+.content {
   text-align: center;
 }
 
@@ -72,8 +68,8 @@
 
 .text {
   font-size: 0.8rem;
-  margin-bottom: 20px;
   line-height: 2;
+  margin: 0;
 }
 
 .techWrapper {
@@ -99,7 +95,6 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    margin: 0;
     -webkit-transform: translate(-50%, 0);
     fill: var(--font-dark);
     transition: fill color 0.1s ease;
@@ -112,5 +107,11 @@
   }
   .upperCard:hover .cardLinks {
     opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1190px) {
+  .cardLinks > a {
+    font-size: 0.6rem;
   }
 }

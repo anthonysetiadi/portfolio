@@ -11,10 +11,10 @@
   margin-top: 10%;
   grid-template-columns: 1fr;
   column-gap: 10%;
-  row-gap: 6%;
+  row-gap: 30px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1080px) {
   .projectWrapper {
     width: 70vw;
   }
