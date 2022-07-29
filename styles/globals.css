@@ -46,6 +46,7 @@ a {
   justify-content: center;
 }
 
+/* Buttons */
 .primaryBtn {
   margin: 10px;
   padding: 10px;
@@ -63,6 +64,17 @@ a {
   background-color: var(--accent-orange);
   color: var(--font-light);
   transition: 250ms;
+}
+
+.btn {
+  fill: var(--font-dark);
+  margin: 0px 20px;
+  transition: fill 0.1s ease;
+}
+
+.btn:hover {
+  opacity: 1;
+  fill: var(--accent-orange);
 }
 
 /* @media (prefers-color-scheme: dark) {

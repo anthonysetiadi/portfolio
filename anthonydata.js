@@ -56,11 +56,11 @@ export default {
         },
         {
           id: 2,
-          name: 'Gatsby'
+          name: 'Next.js'
         },
         {
           id: 3,
-          name: 'SCSS'
+          name: 'CSS'
         }
       ]
     },

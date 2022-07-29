@@ -12,11 +12,13 @@
   border-radius: 10px;
   box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
   overflow: hidden !important;
-  display: inline-block;
+  display: block;
 }
 
 .browserOverlay {
-  object-fit: contain;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .cardImage {
@@ -28,14 +30,6 @@
   background-position: center;
   opacity: 1;
   transition: opacity 0.5s ease;
-}
-
-.upperCard:hover .cardImage {
-  opacity: 0.3;
-}
-
-.upperCard:hover .card-links {
-  opacity: 1;
 }
 
 .cardLinks {
@@ -61,6 +55,7 @@
 .text {
   font-size: 12px;
   margin-bottom: 20px;
+  line-height: 2;
 }
 
 .techWrapper {
@@ -78,11 +73,23 @@
   border-radius: 5px;
 }
 
-/* @media screen and (min-width: 769px) {
-  display: flex;
-  opacity: 1;
-  justify-content: center;
-  margin-top: 20px;
-  position: static;
-  transform: none;
-} */
+@media screen and (max-width: 767px) {
+  .cardLinks {
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    margin-top: 20px;
+    position: static;
+    transform: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .upperCard:hover .cardImage {
+    opacity: 0.5;
+  }
+
+  .upperCard:hover .cardLinks {
+    opacity: 1;
+  }
+}

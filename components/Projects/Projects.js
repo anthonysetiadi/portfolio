@@ -7,7 +7,7 @@ import data from '../../anthonydata'
 function Projects() {
   return (
     <div className="section" id={styles.projects}>
-      <div className="container">
+      <div className="sectionContainer">
         <div className={styles.projectWrapper}>
           <h1>Projects</h1>
           <div className={styles.grid}>

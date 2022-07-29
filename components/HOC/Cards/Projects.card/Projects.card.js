@@ -2,11 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 
 // Icons
-import browserTopBar from '../../../../public/browser-top-bar.svg'
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded'
 import GitHubIcon from '@mui/icons-material/GitHub'
 
 import styles from './Projects.card.module.css'
+
+const browserTopBar =
+  'https://ik.imagekit.io/antz/browserTopBar_CaAQMCTzD.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659060099796'
 
 const ProjectCard = ({
   heading,
@@ -20,18 +22,15 @@ const ProjectCard = ({
     <div className={styles.cardWrapper}>
       <div className={styles.upperCard}>
         <div className={styles.card}>
-          <Image
+          <img
             className={styles.browserOverlay}
             src={browserTopBar}
-            alt="browser top bar"
-            layout="fill"
+            alt="browser"
           />
-          <Image
-            src={imgUrl}
+          <div
+            style={{ backgroundImage: `url(${imgUrl})` }}
             className={styles.cardImage}
-            alt="project"
-            layout="fill"
-          />
+          ></div>
         </div>
         <div className={styles.cardLinks}>
           <a
@@ -42,11 +41,11 @@ const ProjectCard = ({
             <OpenInNewRoundedIcon
               className="btn"
               id="open-new"
-              fontSize="medium"
+              fontSize="large"
             />
           </a>
           <a href={githubLink} target="_blank" rel="noopener noreferrer">
-            <GitHubIcon className="btn" id="github" fontSize="medium" />
+            <GitHubIcon className="btn" id="github" fontSize="large" />
           </a>
         </div>
       </div>

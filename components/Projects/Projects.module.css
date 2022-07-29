@@ -1,4 +1,4 @@
-.workWrapper {
+.projectWrapper {
   width: 100vw;
   margin-top: 10vh;
   display: flex;
@@ -15,7 +15,17 @@
 }
 
 @media screen and (min-width: 768px) {
+  .projectWrapper {
+    width: 70vw;
+  }
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projectWrapper {
+    width: 80vw;
+    max-width: fit-content;
   }
 }
