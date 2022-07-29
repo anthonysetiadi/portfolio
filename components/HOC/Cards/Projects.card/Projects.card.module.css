@@ -1,9 +1,12 @@
 .cardWrapper {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.upperCard {
+  position: relative;
 }
 
 .card {
@@ -33,19 +36,34 @@
 }
 
 .cardLinks {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  opacity: 1;
+  justify-content: space-between;
+  margin: 0 10%;
+  margin-top: 2%;
+  position: static;
+}
+
+.cardLinks > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3% 0px;
+  font-size: 0.8rem;
+}
+
+.cardLinks > a:hover {
+  color: var(--accent-orange);
+  fill: var(--accent-orange);
+}
+
+.cardLinks:hover {
+  opacity: 1;
 }
 
 .cardWrapper > .content {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  margin: 20px;
 }
 
 .header {
@@ -53,7 +71,7 @@
 }
 
 .text {
-  font-size: 12px;
+  font-size: 0.8rem;
   margin-bottom: 20px;
   line-height: 2;
 }
@@ -66,29 +84,32 @@
 }
 
 .badge {
+  font-size: 0.8rem;
   background-color: var(--accent-orange);
   color: white;
-  padding: 4px 8px;
+  padding: 6px 8px;
   text-align: center;
   border-radius: 5px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (hover: hover) {
   .cardLinks {
-    display: flex;
-    opacity: 1;
-    justify-content: center;
-    margin-top: 20px;
-    position: static;
-    transform: none;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0;
+    -webkit-transform: translate(-50%, 0);
+    fill: var(--font-dark);
+    transition: fill color 0.1s ease;
   }
-}
-
-@media screen and (min-width: 768px) {
+  .cardLinks > a {
+    padding: 0 5%;
+  }
   .upperCard:hover .cardImage {
-    opacity: 0.5;
+    opacity: 0.1;
   }
-
   .upperCard:hover .cardLinks {
     opacity: 1;
   }

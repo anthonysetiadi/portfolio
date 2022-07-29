@@ -35,17 +35,21 @@ const ProjectCard = ({
         <div className={styles.cardLinks}>
           <a
             href={projectLink ? projectLink : '#'}
+            id={styles.newTab}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <OpenInNewRoundedIcon
-              className="btn"
-              id="open-new"
-              fontSize="large"
-            />
+            <OpenInNewRoundedIcon />
+            <span>Open in new tab</span>
           </a>
-          <a href={githubLink} target="_blank" rel="noopener noreferrer">
-            <GitHubIcon className="btn" id="github" fontSize="large" />
+          <a
+            href={githubLink}
+            id={styles.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GitHubIcon />
+            <span>Source code</span>
           </a>
         </div>
       </div>
