@@ -1,0 +1,51 @@
+.aboutWrapper {
+  width: 100vw;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutSection {
+  width: 70vw;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.content {
+  width: 50%;
+}
+
+.imageWrapper {
+  width: 50%;
+}
+
+.aboutImage {
+  max-width: 800px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+  border: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .aboutSection {
+    width: 70vw;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: fit-content;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .imageWrapper {
+    width: 100%;
+  }
+}

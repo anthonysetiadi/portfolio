@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
     return (
-      <Html className="scroll-smooth" style={{ scrollBehavior: 'smooth' }}>
+      <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link

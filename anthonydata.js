@@ -269,21 +269,25 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     {
+      id: 1,
       img: githubIcon,
       url: 'https://github.com/anthonysetiadi',
       alt: 'github'
     },
     {
+      id: 2,
       img: instagramIcon,
       url: 'https://www.instagram.com/hey.antz',
       alt: 'instagram'
     },
     {
+      id: 3,
       img: whatsappIcon,
       url: 'https://wa.me/61414350388',
       alt: 'whatsapp'
     },
     {
+      id: 4,
       img: linkedIn,
       url: 'https://www.linkedin.com/in/anthonysetiadi/',
       alt: 'linked in'

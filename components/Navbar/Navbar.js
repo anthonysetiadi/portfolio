@@ -20,46 +20,60 @@ function Navbar() {
     {
       type: 'link',
       title: {
+        name: 'Home'
+      },
+      link: '#'
+    },
+    {
+      type: 'link',
+      title: {
         name: 'Projects'
       },
-      link: '/projects'
+      link: '#projects'
     },
     {
       type: 'link',
       title: {
         name: 'About'
       },
-      link: '/about'
+      link: '#about'
     },
     {
       type: 'link',
       title: {
         name: 'Contact'
       },
-      link: '/contact'
+      link: '#contact'
     }
   ]
 
   return (
     <div className={styles.navbar}>
       <div className={styles.wrapper}>
-        <div
-          className={styles.left}
+        <a
+          href="#"
           onClick={() => {
             handleCloseMenu()
           }}
         >
-          <Image
-            className={styles.logo}
-            alt="Antz Logo"
-            src={antzLogo}
-            width={24}
-            height={24}
-          />
-          <h1 className={styles.title}>
-            antz.<span>dev</span>
-          </h1>
-        </div>
+          <div
+            className={styles.left}
+            onClick={() => {
+              handleCloseMenu()
+            }}
+          >
+            <Image
+              className={styles.logo}
+              alt="Antz Logo"
+              src={antzLogo}
+              width={24}
+              height={24}
+            />
+            <h1 className={styles.title}>
+              antz.<span>dev</span>
+            </h1>
+          </div>
+        </a>
         <div className={styles.right}>
           <div className={styles.mobileMenu} onClick={toggleMenu}>
             {showMenu ? <CloseIcon /> : <MenuIcon />}
@@ -71,7 +85,13 @@ function Navbar() {
             ].join(' ')}
           >
             {menuItems.map(item => (
-              <a key={item.title.name} href={item.link}>
+              <a
+                key={item.title.name}
+                href={item.link}
+                onClick={() => {
+                  handleCloseMenu()
+                }}
+              >
                 {item.title.name}
               </a>
             ))}
