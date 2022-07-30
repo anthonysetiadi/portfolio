@@ -50,7 +50,7 @@ a {
 /* Hero Section */
 #hero {
   height: 100vh;
-  padding-top: 80px;
+  padding-top: var(--navbar-height);
 }
 
 /* Buttons */

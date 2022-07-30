@@ -29,7 +29,7 @@ function Hero() {
             <h1>{data.headerTagline[2]}</h1>
           </div>
           <p className={styles.headerParagraph}>{data.headerParagraph}</p>
-          <a href="#projects" className="primaryBtn">
+          <a href="#about" className="primaryBtn">
             Learn More
           </a>
         </div>
