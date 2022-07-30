@@ -15,6 +15,7 @@ const ProjectCard = ({
   paragraph,
   imgUrl,
   projectLink,
+  list,
   githubLink,
   technology
 }) => {
@@ -33,30 +34,41 @@ const ProjectCard = ({
           ></div>
         </div>
         <div className={styles.cardLinks}>
-          <a
-            href={projectLink ? projectLink : '#'}
-            id={styles.newTab}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <OpenInNewRoundedIcon />
-            <span>Open in new tab</span>
-          </a>
-          <a
-            href={githubLink}
-            id={styles.github}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GitHubIcon />
-            <span>Source code</span>
-          </a>
+          {projectLink && (
+            <a
+              href={projectLink ? projectLink : '#'}
+              id={styles.newTab}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <OpenInNewRoundedIcon />
+              <span>Open in new tab</span>
+            </a>
+          )}
+          {githubLink && (
+            <a
+              href={githubLink}
+              id={styles.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHubIcon />
+              <span>Source code</span>
+            </a>
+          )}
         </div>
       </div>
 
       <div className={styles.content}>
         <h1 className={styles.header}>{heading}</h1>
         <p className={styles.text}>{paragraph}</p>
+        <ul className={styles.list}>
+          {list?.map(item => (
+            <li key={item} className={styles.listItem}>
+              {item}
+            </li>
+          ))}
+        </ul>
         <div className={styles.techWrapper}>
           {technology.map(tech => (
             <p key={tech.id} className={styles.badge}>

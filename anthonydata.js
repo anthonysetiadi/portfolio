@@ -6,6 +6,7 @@ import reactIcon from './public/react.svg'
 import jsIcon from './public/javascript.svg'
 import shopifyBlack from './public/shopify-black.png'
 import nodeJsBlack from './public/node-js-black.svg'
+import nextJs from './public/nextjs.svg'
 
 // Social Icon
 import githubIcon from './public/github.svg'
@@ -38,6 +39,65 @@ export default {
   // End Header Details -----------------------
 
   // Work Section ------------------------
+  work: [
+    {
+      id: 1,
+      title: 'Zove Beauty',
+      para: `Shopify theme edits for Zove Beauty based on Presidio Creative's Palo Alto theme (v. 4.0.1). Theme customisations include: `,
+      list: [
+        'Custom designed and styled homepage including new buttons, layouts, and megamenu',
+        'Collapsible tabs for Product and FAQ page',
+        'Custom designed Blog section with new layout and styling',
+        'General theme bug fixes and animations'
+      ],
+      imageSrc:
+        'https://ik.imagekit.io/antz/Screen_Shot_2022-07-30_at_8.58.38_pm_ritSauGpJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659178744128',
+      url: 'https://www.zovebeauty.com.au/',
+      technology: [
+        {
+          id: 1,
+          name: 'HTML'
+        },
+        {
+          id: 2,
+          name: 'CSS'
+        },
+        {
+          id: 3,
+          name: 'JavaScript'
+        },
+        {
+          id: 4,
+          name: 'Liquid'
+        }
+      ]
+    },
+    {
+      id: 2,
+      title: 'Sakos Kitchen',
+      para: `Mock design and clone of Sako's Kitchen Shopify store to guide merchant in their store design process. `,
+      imageSrc:
+        'https://ik.imagekit.io/antz/project-2-screenshot_1__LDNf6aLBK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658209697112',
+      githubLink:
+        'https://github.com/anthonysetiadi/sakos-kitchen-landing-page',
+      technology: [
+        {
+          id: 1,
+          name: 'React'
+        },
+        {
+          id: 2,
+          name: 'CSS'
+        },
+        {
+          id: 3,
+          name: 'Figma'
+        }
+      ]
+    }
+  ],
+
+  // Project Section ------------------------
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
@@ -117,7 +177,7 @@ export default {
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
       title: 'Startup Directory', //Project Title - Add Your Project Title Here
-      para: 'Fake startup Directory built with the Random User Public API',
+      para: 'Fake startup directory built with the Random User Public API',
       //Project Image - Add Your Project Image Here
       imageSrc:
         'https://ik.imagekit.io/antz/project-4-screenshot_6VuVKfQVr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658210266458',
@@ -242,8 +302,8 @@ export default {
     },
     {
       id: 5,
-      img: nodeJsBlack,
-      para: 'Node.js'
+      img: nextJs,
+      para: 'Next.js'
     },
     {
       id: 6,

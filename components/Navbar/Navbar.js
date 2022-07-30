@@ -20,9 +20,16 @@ function Navbar() {
     {
       type: 'link',
       title: {
-        name: 'Home'
+        name: 'About'
       },
-      link: '#'
+      link: '#about'
+    },
+    {
+      type: 'link',
+      title: {
+        name: 'Work'
+      },
+      link: '#work'
     },
     {
       type: 'link',
@@ -30,13 +37,6 @@ function Navbar() {
         name: 'Projects'
       },
       link: '#projects'
-    },
-    {
-      type: 'link',
-      title: {
-        name: 'About'
-      },
-      link: '#about'
     },
     {
       type: 'link',

@@ -73,6 +73,13 @@
   margin: 0;
 }
 
+.list {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  text-align: start;
+}
+
 .techWrapper {
   display: flex;
   flex-direction: row;

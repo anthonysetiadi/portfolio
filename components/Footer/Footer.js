@@ -21,13 +21,14 @@ function Footer() {
           <div className={styles.socialWrapper}>
             {data.social.map(socialLink => (
               <a
-                className={styles.icons}
+                className={styles.iconTag}
                 key={socialLink.id}
                 href={socialLink.url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
+                  className={styles.icon}
                   src={socialLink.img}
                   alt={socialLink.alt}
                   width={32}
