@@ -15,7 +15,6 @@
 
 .emailLink {
   font-size: 1.5rem;
-  color: var(--accent-orange);
   margin: 1.5rem 0;
 }
 
@@ -27,14 +26,6 @@
 .iconTag {
   margin: 10px;
   padding: 5px;
-}
-
-.icon {
-  fill: var(--font-dark);
-}
-
-.icon:hover {
-  fill: var(--accent-orange);
 }
 
 .footerContainer > span {

@@ -15,7 +15,10 @@ function Footer() {
         <div className={styles.footerContainer}>
           <h1>Let's chat</h1>
           {/* <p>{data.contactSubHeading}</p> */}
-          <a className={styles.emailLink} href={`mailto:${data.contactEmail}`}>
+          <a
+            className={`${styles.emailLink} ${'link'}`}
+            href={`mailto:${data.contactEmail}`}
+          >
             {data.contactEmail}
           </a>
           <div className={styles.socialWrapper}>
@@ -28,7 +31,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className={styles.icon}
+                  className="icon"
                   src={socialLink.img}
                   alt={socialLink.alt}
                   width={32}

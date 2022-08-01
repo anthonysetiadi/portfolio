@@ -15,27 +15,11 @@ function About() {
               <p>
                 {data.aboutParaOne}
                 <br></br>
-                <br></br>I now work as a freelance front-end web developer and
-                am continuing to improve my coding and design skills. I also run
-                a side hustle{' '}
-                {
-                  <a
-                    href="http://ryskape.com"
-                    style={{ color: '#FF9720' }}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @Ryskape{' '}
-                  </a>
-                }
-                where we sell cool desk accessories. When I’m not coding, I love
-                playing basketball or spending time with my wife and three kids.
+                <br></br>
+                {data.aboutParaTwo}
                 <br></br>
                 <br></br>
-                And lastly, I can't survive without a good cup of coffee{' '}
-                <span role="img" aria-label="coffe emoji">
-                  ☕
-                </span>
+                {data.aboutParaThree}
               </p>
             </div>
             <div className={styles.imageWrapper}>

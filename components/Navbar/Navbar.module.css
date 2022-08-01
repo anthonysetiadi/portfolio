@@ -32,10 +32,15 @@
   cursor: pointer;
 }
 
-.title > span {
+.dev {
   font-weight: 300;
   color: #a9aaa9;
   letter-spacing: 1px;
+  transition: color 0.1s ease;
+}
+
+.left:hover .dev {
+  color: var(--accent-orange);
 }
 
 .logo {

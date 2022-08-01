@@ -25,15 +25,11 @@ p {
   line-height: 1.5rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
 
+/* Sections & Containers */
 .section {
   width: 100%;
 }
@@ -71,6 +67,31 @@ a {
   background-color: var(--accent-orange);
   color: var(--font-light);
   transition: 250ms;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 250ms ease;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: var(--accent-orange);
+}
+
+/* Icon */
+.icon {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+.icon:hover {
+  opacity: 0.5;
 }
 
 /* Grid */

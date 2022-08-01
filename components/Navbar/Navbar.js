@@ -58,7 +58,7 @@ function Navbar() {
               height={24}
             />
             <h1 className={styles.title}>
-              antz.<span>dev</span>
+              antz.<span className={styles.dev}>dev</span>
             </h1>
           </div>
         </a>

@@ -45,7 +45,21 @@ export default {
     {
       id: 1,
       title: 'Zove Beauty',
-      para: `Shopify theme edits for Zove Beauty based on Presidio Creative's Palo Alto theme (v. 4.0.1). Theme customisations include: `,
+      para: (
+        <span>
+          Shopify theme edits for{' '}
+          <a
+            href="http://zovebeauty.com.au"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
+            Zove Beauty
+          </a>{' '}
+          based on Presidio Creative's Palo Alto theme (v. 4.0.1). Theme
+          customisations include:
+        </span>
+      ),
       list: [
         'Custom designed and styled homepage including new buttons, layouts, and megamenu',
         'Collapsible tabs for Product and FAQ page',
@@ -77,7 +91,20 @@ export default {
     {
       id: 2,
       title: 'Sakos Kitchen',
-      para: `Mock design and clone of Sako's Kitchen Shopify store to guide merchant in their store design process. `,
+      para: (
+        <span>
+          Mock design and clone of{' '}
+          <a
+            href="http://sakoskitchen.myshopify.com"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
+            Sako's Kitchen
+          </a>{' '}
+          Shopify store to guide merchant in their store design process.
+        </span>
+      ),
       imageSrc:
         'https://ik.imagekit.io/antz/project-2-screenshot_1__LDNf6aLBK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658209697112',
       url: 'https://anthonysetiadi.github.io/sakos-kitchen-landing-page/',
@@ -108,7 +135,7 @@ export default {
       title: 'Portfolio',
       para: 'Simple and clean portfolio to showcase my recent works',
       imageSrc:
-        'https://ik.imagekit.io/antz/Screen_Shot_2022-07-26_at_2.32.44_pm_Efwt_0z5k.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658809976722',
+        'https://ik.imagekit.io/antz/Screen_Shot_2022-08-01_at_4.16.09_pm_E1TZfAslF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659334619467',
       url: 'https://antz.dev/',
       githubLink: 'https://github.com/anthonysetiadi/react-portfolio',
       technology: [
@@ -248,9 +275,30 @@ export default {
   // About Secton --------------
   aboutParaOne:
     'My name is Anthony and I love building stuff on the internet. I previously worked in Biomedical Science in Neurophysiology research but I recently rediscovered my passion for technology and went on a journey to become a self-taught developer.',
-  aboutParaTwo: `I now work as a freelance front-end web developer and am continuing to improve my coding and design skills. I also run a side hustle, {{ <a href="http://ryskape.com"> @Ryskape </a> }} where we sell cool desk accessories. When I’m not coding, I play basketball or spend time with my wife and three kids. Oh, I love drinking good coffee.`,
-  aboutParaThree:
-    'If you’re keen on making a website, need Shopify theme edits or bug fixes, or just want to chat tech or business - please reach out! I would love to get to know you over a virtual cup of coffee and join me in building the future together.',
+  aboutParaTwo: (
+    <span>
+      I now work as a freelance front-end web developer and am continuing to
+      improve my coding and design skills. I also run a side hustle{' '}
+      <a
+        href="http://ryskape.com"
+        target="_blank"
+        rel="noreferrer"
+        className="link"
+      >
+        @Ryskape{' '}
+      </a>{' '}
+      where we sell cool desk accessories. When I’m not coding, I love playing
+      basketball or spending time with my wife and three kids.
+    </span>
+  ),
+  aboutParaThree: (
+    <span>
+      And lastly, I can't survive without a good cup of coffee{' '}
+      <span role="img" aria-label="coffe emoji">
+        ☕
+      </span>
+    </span>
+  ),
   aboutImage:
     'https://ik.imagekit.io/antz/DSC00410_1__San4RSY04.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657780111677',
 
