@@ -17,11 +17,17 @@ function Hero() {
             </span>
           </h1>
           <div className={styles.imageWrapper}>
-            <img
-              className={styles.profileImage}
-              src={data.headerImage}
-              alt="profile"
-            />
+            <video autoPlay loop muted playsInline width={200}>
+              {/* Transparent video for Safari */}
+              <source src={data.heroVideo} type="video/quicktime" />
+              {/* Transparent video for other browsers */}
+              <source src={data.heroVideoWebM} type="video/webm" />
+              <img
+                className={styles.profileImage}
+                src={data.headerImage}
+                alt="profile"
+              />
+            </video>
           </div>
           <div className={styles.headingWrapper}>
             <h1>{data.headerTagline[0]}</h1>

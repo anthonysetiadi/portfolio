@@ -21,6 +21,10 @@ export default {
 
   //   Header Details ---------------------
   name: 'Anthony',
+  heroVideo:
+    'https://ik.imagekit.io/antz/memoji-movie?ik-sdk-version=javascript-1.4.3&updatedAt=1659318145208',
+  heroVideoWebM:
+    'https://ik.imagekit.io/antz/EmojiMovie681010378_copy-1_VP9_zqn43Oma7.webm?ik-sdk-version=javascript-1.4.3&updatedAt=1659326888851',
   headerImage:
     'https://ik.imagekit.io/antz/Memoji_Avatar_Transparent_BG_17p6KuRi8.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659317066811',
   headerTagline: [
