@@ -56,7 +56,7 @@ export default {
           >
             Zove Beauty
           </a>{' '}
-          based on Presidio Creative's Palo Alto theme (v. 4.0.1). Theme
+          based on Presidio Creative&apos;s Palo Alto theme (v. 4.0.1). Theme
           customisations include:
         </span>
       ),
@@ -100,7 +100,7 @@ export default {
             rel="noreferrer"
             className="link"
           >
-            Sako's Kitchen
+            Sako&apos;s Kitchen
           </a>{' '}
           Shopify store to guide merchant in their store design process.
         </span>
@@ -137,7 +137,7 @@ export default {
       imageSrc:
         'https://ik.imagekit.io/antz/Screen_Shot_2022-08-01_at_4.16.09_pm_E1TZfAslF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659334619467',
       url: 'https://antz.dev/',
-      githubLink: 'https://github.com/anthonysetiadi/react-portfolio',
+      githubLink: 'https://github.com/anthonysetiadi/portfolio',
       technology: [
         {
           id: 1,

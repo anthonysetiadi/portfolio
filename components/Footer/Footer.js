@@ -12,7 +12,7 @@ function Footer() {
     <div className="section" id="contact">
       <div className="sectionContainer">
         <div className={styles.footerContainer}>
-          <h1>Let's chat</h1>
+          <h1>Let&apos;s chat</h1>
           {/* <p>{data.contactSubHeading}</p> */}
           <a
             className={`${styles.emailLink} ${'link'}`}
