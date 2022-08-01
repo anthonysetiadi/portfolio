@@ -156,7 +156,7 @@ export default {
     {
       id: 2,
       title: 'Interactive Form',
-      para: 'A form for a mock Full Stack Developers conference', // Add Your Service Type Here
+      para: 'A form for a mock Full Stack Developers conference',
       imageSrc:
         'https://ik.imagekit.io/antz/project-1-screenshot_HNRcxnrYD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658205300386',
       url: 'https://anthonysetiadi.github.io/interactive-form-v3/',
