@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectCard from '../HOC/Cards/Projects.card/Projects.card.js'
 
 import data from '../../anthonydata'

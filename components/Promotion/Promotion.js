@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styles from './Promotion.module.css'
 
 import data from '../../anthonydata'

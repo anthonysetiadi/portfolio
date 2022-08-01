@@ -1,6 +1,3 @@
-import React from 'react'
-import Image from 'next/image'
-
 // Icons
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded'
 import GitHubIcon from '@mui/icons-material/GitHub'
