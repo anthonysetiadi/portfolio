@@ -26,7 +26,7 @@ export default {
     'https://ik.imagekit.io/antz/Memoji_Avatar_Transparent_BG_17p6KuRi8.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659317066811',
   heroTagline: [
     //Line 1
-    "Let's build",
+    <span key={1}>Let&apos;s build</span>,
     //Line 2
     'the future',
     //Line 3
@@ -287,13 +287,13 @@ export default {
       >
         @Ryskape{' '}
       </a>{' '}
-      where we sell cool desk accessories. When I’m not coding, I love playing
-      basketball or spending time with my wife and three kids.
+      where we sell cool desk accessories. When I&apos;m not coding, I love
+      playing basketball or spending time with my wife and three kids.
     </span>
   ),
   aboutParaThree: (
     <span>
-      And lastly, I can't survive without a good cup of coffee{' '}
+      And lastly, I can&apos;t survive without a good cup of coffee{' '}
       <span role="img" aria-label="coffe emoji">
         ☕
       </span>

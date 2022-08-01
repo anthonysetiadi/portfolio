@@ -9,7 +9,7 @@ function Hero() {
       <div className="sectionContainer">
         <div className={styles.wrapper}>
           <h1 className={styles.title}>
-            Hi, I'm <span style={{ color: '#FF9720' }}>{data.name} </span>
+            Hi, I&apos;m <span style={{ color: '#FF9720' }}>{data.name} </span>
             <span role="img" aria-label="wave emoji">
               👋
             </span>

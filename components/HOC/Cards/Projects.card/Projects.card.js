@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // Icons
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded'
 import GitHubIcon from '@mui/icons-material/GitHub'
