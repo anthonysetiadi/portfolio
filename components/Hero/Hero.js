@@ -17,24 +17,29 @@ function Hero() {
             </span>
           </h1>
           <div className={styles.imageWrapper}>
-            <video autoPlay loop muted playsInline width={200}>
-              {/* Transparent video for Safari */}
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster={data.heroImage}
+              width={200}
+            >
               <source src={data.heroVideo} type="video/quicktime" />
-              {/* Transparent video for other browsers */}
               <source src={data.heroVideoWebM} type="video/webm" />
               <img
                 className={styles.profileImage}
-                src={data.headerImage}
+                src={data.heroImage}
                 alt="profile"
               />
             </video>
           </div>
           <div className={styles.headingWrapper}>
-            <h1>{data.headerTagline[0]}</h1>
-            <h1>{data.headerTagline[1]}</h1>
-            <h1>{data.headerTagline[2]}</h1>
+            <h1>{data.heroTagline[0]}</h1>
+            <h1>{data.heroTagline[1]}</h1>
+            <h1>{data.heroTagline[2]}</h1>
           </div>
-          <p className={styles.headerParagraph}>{data.headerParagraph}</p>
+          <p className={styles.heroParagraph}>{data.heroParagraph}</p>
           <a href="#about" className="primaryBtn">
             Learn More
           </a>

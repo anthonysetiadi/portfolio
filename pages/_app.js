@@ -10,7 +10,31 @@ function Portfolio({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="apple-touch-icon" href="" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="favicon/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="favicon/site.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="favicon/safari-pinned-tab.svg"
+          color="#FF9720"
+        />
+        <meta name="msapplication-TileColor" content="#1a202c" />
+        <meta name="theme-color" content="#f8f8fa" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="title" content="Anthony Setiadi Portfolio" />
         <meta

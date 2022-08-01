@@ -5,43 +5,40 @@ import cssIcon from './public/css.svg'
 import reactIcon from './public/react.svg'
 import jsIcon from './public/javascript.svg'
 import shopifyBlack from './public/shopify-black.png'
-import nodeJsBlack from './public/node-js-black.svg'
 import nextJs from './public/nextjs.svg'
 
 // Social Icon
 import githubIcon from './public/github.svg'
 import instagramIcon from './public/instagram.svg'
-import whatsappIcon from './public/whatsapp.svg'
 import twitterIcon from './public/twitter.svg'
 import linkedIn from './public/linkedIn.svg'
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
 
-  //   Header Details ---------------------
+  //   Hero Details ---------------------
   name: 'Anthony',
   heroVideo:
     'https://ik.imagekit.io/antz/memoji-movie?ik-sdk-version=javascript-1.4.3&updatedAt=1659318145208',
   heroVideoWebM:
     'https://ik.imagekit.io/antz/EmojiMovie681010378_copy-1_VP9_zqn43Oma7.webm?ik-sdk-version=javascript-1.4.3&updatedAt=1659326888851',
-  headerImage:
+  heroImage:
     'https://ik.imagekit.io/antz/Memoji_Avatar_Transparent_BG_17p6KuRi8.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659317066811',
-  headerTagline: [
-    //Line 1 For Header
+  heroTagline: [
+    //Line 1
     "Let's build",
-    //Line 2 For Header
+    //Line 2
     'the future',
-    //Line 3 For Header
+    //Line 3
     'together'
   ],
-  //   Header Paragraph
-  headerParagraph:
+  //   Hero Paragraph
+  heroParagraph:
     'A freelance front-end web developer based in Melbourne, Australia. Passionate about tech and making things on the internet.',
   //Contact Email
   contactEmail: 'hello@antz.dev',
 
-  // End Header Details -----------------------
+  // End Hero Details -----------------------
 
   // Work Section ------------------------
   work: [
@@ -102,17 +99,16 @@ export default {
       ]
     }
   ],
+  // End Work Section -----------------------
 
   // Project Section ------------------------
   projects: [
     {
-      id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: 'Portfolio', //Project Title - Add Your Project Title Here
+      id: 1,
+      title: 'Portfolio',
       para: 'Simple and clean portfolio to showcase my recent works',
-      //Project Image - Add Your Project Image Here
       imageSrc:
         'https://ik.imagekit.io/antz/Screen_Shot_2022-07-26_at_2.32.44_pm_Efwt_0z5k.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658809976722',
-      //Project URL - Add Your Project Url Here
       url: 'https://antz.dev/',
       githubLink: 'https://github.com/anthonysetiadi/react-portfolio',
       technology: [
@@ -131,13 +127,11 @@ export default {
       ]
     },
     {
-      id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: 'Interactive Form', //Project Title - Add Your Project Title Here
+      id: 2,
+      title: 'Interactive Form',
       para: 'A form for a mock Full Stack Developers conference', // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
       imageSrc:
         'https://ik.imagekit.io/antz/project-1-screenshot_HNRcxnrYD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658205300386',
-      //Project URL - Add Your Project Url Here
       url: 'https://anthonysetiadi.github.io/interactive-form-v3/',
       githubLink: 'https://github.com/anthonysetiadi/interactive-form-v3',
       technology: [
@@ -156,13 +150,11 @@ export default {
       ]
     },
     {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: 'Student Directory', //Project Title - Add Your Project Title Here
+      id: 3,
+      title: 'Student Directory',
       para: 'Fake student directory with data pagination and search functionality',
-      //Project Image - Add Your Project Image Here
       imageSrc:
         'https://ik.imagekit.io/antz/project-3-screenshot_JA605D_0g.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658208203960',
-      //Project URL - Add Your Project Url Here
       url: 'https://anthonysetiadi.github.io/data-pagination-filtering/',
       githubLink: 'https://github.com/anthonysetiadi/data-pagination-filtering',
       technology: [
@@ -181,13 +173,11 @@ export default {
       ]
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: 'Startup Directory', //Project Title - Add Your Project Title Here
+      id: 4,
+      title: 'Startup Directory',
       para: 'Fake startup directory built with the Random User Public API',
-      //Project Image - Add Your Project Image Here
       imageSrc:
         'https://ik.imagekit.io/antz/project-4-screenshot_6VuVKfQVr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658210266458',
-      //Project URL - Add Your Project Url Here
       url: 'https://anthonysetiadi.github.io/public-api-requests/',
       githubLink: 'https://github.com/anthonysetiadi/public-api-requests',
       technology: [
@@ -206,13 +196,11 @@ export default {
       ]
     },
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: 'Phrase Hunter Game', //Project Title - Add Your Project Title Here
+      id: 5,
+      title: 'Phrase Hunter Game',
       para: 'Simple phrase guessing game built with object oriented programming principles',
-      //Project Image - Add Your Project Image Here
       imageSrc:
         'https://ik.imagekit.io/antz/phrase-hunter-screenshot_DVBHg3YWS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658210159725',
-      //Project URL - Add Your Project Url Here
       url: 'https://anthonysetiadi.github.io/oop-game-v2/',
       githubLink: 'https://github.com/anthonysetiadi/oop-game-v2',
       technology: [
@@ -231,13 +219,11 @@ export default {
       ]
     },
     {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: 'Random Quote Generator', //Project Title - Add Your Project Title Here
+      id: 6,
+      title: 'Random Quote Generator',
       para: 'Simple and clean random quote that changes every 5 seconds',
-      //Project Image - Add Your Project Image Here
       imageSrc:
         'https://ik.imagekit.io/antz/project-2-screenshot_hEbJw1rn2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658205624552',
-      //Project URL - Add Your Project Url Here
       url: 'https://anthonysetiadi.github.io/a-random-quote-generator/',
       githubLink: 'https://github.com/anthonysetiadi/a-random-quote-generator',
       technology: [
@@ -255,20 +241,9 @@ export default {
         }
       ]
     }
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-    ,{
-        id: 5,
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
-  // End Work Section -----------------------
+  // End Projects Section -----------------------
 
   // About Secton --------------
   aboutParaOne:
@@ -333,7 +308,6 @@ export default {
 
   contactSubHeading: "Let's have a chat",
   social: [
-    // Add Or Remove The Link Accordingly
     {
       id: 1,
       img: githubIcon,
