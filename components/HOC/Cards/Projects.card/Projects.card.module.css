@@ -28,8 +28,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 1;
-  transition: opacity 0.5s ease;
+  /* opacity: 1; */
+  /* background-color: rgba(250, 250, 250, 1); */
+  position: relative;
+}
+
+.cardImage::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(250, 250, 250, 0);
+  transition: background-color 0.5s ease;
 }
 
 .cardLinks {
@@ -110,8 +122,9 @@
   .cardLinks > a {
     padding: 0 5%;
   }
-  .upperCard:hover .cardImage {
-    opacity: 0.1;
+  .upperCard:hover .cardImage::before {
+    /* opacity: 0.1; */
+    background-color: rgba(250, 250, 250, 0.9);
   }
   .upperCard:hover .cardLinks {
     opacity: 1;

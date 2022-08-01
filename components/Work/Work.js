@@ -1,16 +1,14 @@
 import ProjectCard from '../HOC/Cards/Projects.card/Projects.card'
 
-import styles from './Work.module.css'
-
 import data from '../../anthonydata'
 
 const Work = () => {
   return (
     <div className="section" id="work">
       <div className="sectionContainer">
-        <div className={styles.workWrapper}>
+        <div className="gridWrapper">
           <h1>Client Work</h1>
-          <div className={styles.grid}>
+          <div className="grid">
             {data.work.map(work => (
               <ProjectCard
                 key={work.id}

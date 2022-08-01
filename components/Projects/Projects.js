@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectCard from '../HOC/Cards/Projects.card/Projects.card.js'
-import styles from './Projects.module.css'
 
 import data from '../../anthonydata'
 
@@ -8,9 +7,9 @@ function Projects() {
   return (
     <div className="section" id="projects">
       <div className="sectionContainer">
-        <div className={styles.projectWrapper}>
+        <div className="gridWrapper">
           <h1>Projects</h1>
-          <div className={styles.grid}>
+          <div className="grid">
             {data.projects.map(project => (
               <ProjectCard
                 key={project.id}

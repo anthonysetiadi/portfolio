@@ -12,9 +12,7 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false)
 
   const toggleMenu = () => setShowMenu(!showMenu)
-  function handleCloseMenu() {
-    setShowMenu(false)
-  }
+  const handleCloseMenu = () => setShowMenu(false)
 
   const menuItems = [
     {
@@ -50,18 +48,8 @@ function Navbar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.wrapper}>
-        <a
-          href="#"
-          onClick={() => {
-            handleCloseMenu()
-          }}
-        >
-          <div
-            className={styles.left}
-            onClick={() => {
-              handleCloseMenu()
-            }}
-          >
+        <a href="#">
+          <div className={styles.left} onClick={handleCloseMenu}>
             <Image
               className={styles.logo}
               alt="Antz Logo"
@@ -88,9 +76,7 @@ function Navbar() {
               <a
                 key={item.title.name}
                 href={item.link}
-                onClick={() => {
-                  handleCloseMenu()
-                }}
+                onClick={handleCloseMenu}
               >
                 {item.title.name}
               </a>

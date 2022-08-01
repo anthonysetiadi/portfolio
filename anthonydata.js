@@ -12,6 +12,7 @@ import nextJs from './public/nextjs.svg'
 import githubIcon from './public/github.svg'
 import instagramIcon from './public/instagram.svg'
 import whatsappIcon from './public/whatsapp.svg'
+import twitterIcon from './public/twitter.svg'
 import linkedIn from './public/linkedIn.svg'
 
 export default {
@@ -21,7 +22,7 @@ export default {
   //   Header Details ---------------------
   name: 'Anthony',
   headerImage:
-    'https://ik.imagekit.io/antz/IMG_5613_2_3ncS0KFuy.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657780242752',
+    'https://ik.imagekit.io/antz/Memoji_Avatar_Transparent_BG_17p6KuRi8.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659317066811',
   headerTagline: [
     //Line 1 For Header
     "Let's build",
@@ -78,6 +79,7 @@ export default {
       para: `Mock design and clone of Sako's Kitchen Shopify store to guide merchant in their store design process. `,
       imageSrc:
         'https://ik.imagekit.io/antz/project-2-screenshot_1__LDNf6aLBK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658209697112',
+      url: 'https://anthonysetiadi.github.io/sakos-kitchen-landing-page/',
       githubLink:
         'https://github.com/anthonysetiadi/sakos-kitchen-landing-page',
       technology: [
@@ -342,8 +344,8 @@ export default {
     },
     {
       id: 3,
-      img: whatsappIcon,
-      url: 'https://wa.me/61414350388',
+      img: twitterIcon,
+      url: 'https://twitter.com/antsetiadi/',
       alt: 'whatsapp'
     },
     {
