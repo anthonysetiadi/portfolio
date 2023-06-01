@@ -155,6 +155,28 @@ export default {
     },
     {
       id: 2,
+      title: 'Similarity API Dashboard',
+      para: 'Dashboard for a similarity API that compares the similarity between texts',
+      imageSrc:
+        'https://ik.imagekit.io/antz/project-8-screenshot_Sp1Ag9_1B.png?updatedAt=1685584405449',
+      githubLink: 'https://github.com/anthonysetiadi/similarity-api-tutorial',
+      technology: [
+        {
+          id: 1,
+          name: 'Next.js'
+        },
+        {
+          id: 2,
+          name: 'TypeScript'
+        },
+        {
+          id: 3,
+          name: 'Tailwind CSS'
+        }
+      ]
+    },
+    {
+      id: 3,
       title: 'Interactive Form',
       para: 'A form for a mock Full Stack Developers conference',
       imageSrc:
@@ -177,7 +199,7 @@ export default {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: 'Student Directory',
       para: 'Fake student directory with data pagination and search functionality',
       imageSrc:
@@ -200,7 +222,7 @@ export default {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: 'Startup Directory',
       para: 'Fake startup directory built with the Random User Public API',
       imageSrc:
@@ -223,36 +245,13 @@ export default {
       ]
     },
     {
-      id: 5,
+      id: 6,
       title: 'Phrase Hunter Game',
       para: 'Simple phrase guessing game built with object oriented programming principles',
       imageSrc:
         'https://ik.imagekit.io/antz/phrase-hunter-screenshot_DVBHg3YWS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658210159725',
       url: 'https://anthonysetiadi.github.io/oop-game-v2/',
       githubLink: 'https://github.com/anthonysetiadi/oop-game-v2',
-      technology: [
-        {
-          id: 1,
-          name: 'HTML'
-        },
-        {
-          id: 2,
-          name: 'CSS'
-        },
-        {
-          id: 3,
-          name: 'JavaScript'
-        }
-      ]
-    },
-    {
-      id: 6,
-      title: 'Random Quote Generator',
-      para: 'Simple and clean random quote that changes every 5 seconds',
-      imageSrc:
-        'https://ik.imagekit.io/antz/project-2-screenshot_hEbJw1rn2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658205624552',
-      url: 'https://anthonysetiadi.github.io/a-random-quote-generator/',
-      githubLink: 'https://github.com/anthonysetiadi/a-random-quote-generator',
       technology: [
         {
           id: 1,
@@ -287,8 +286,9 @@ export default {
       >
         @Ryskape{' '}
       </a>{' '}
-      where we sell cool desk accessories. When I&apos;m not coding, I love
-      playing basketball or spending time with my wife and three kids.
+      where we sell cool desk accessories. When I&apos;m not coding, I try my
+      best to keep fit on my road bike cycling or spending time with my wife and
+      three kids.
     </span>
   ),
   aboutParaThree: (
