@@ -52,6 +52,17 @@ function Footer() {
               </a>{' '}
               with <icon>❤</icon> and lots of <icon>☕</icon>
             </p>
+            <p>
+              Find the source code to this portfolio{' '}
+              <a
+                href="https://github.com/anthonysetiadi/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#FF9720' }}
+              >
+                here.
+              </a>
+            </p>
             <p id={styles.copyright}>©️ {year}. All rights reserved.</p>
           </span>
         </div>

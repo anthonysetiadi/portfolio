@@ -132,31 +132,31 @@ export default {
   projects: [
     {
       id: 1,
-      title: 'Portfolio',
-      para: 'Simple and clean portfolio to showcase my recent works',
+      title: 'Threads Clone',
+      para: 'Full stack Threads app clone with working authentication, CRUD posts and communities',
       imageSrc:
-        'https://ik.imagekit.io/antz/Screen_Shot_2022-08-01_at_4.16.09_pm_E1TZfAslF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659334619467',
-      url: 'https://antz.dev/',
-      githubLink: 'https://github.com/anthonysetiadi/portfolio',
+        'https://ik.imagekit.io/antz/threads-screenshot_5BGNluB08.png?updatedAt=1693271331589',
+      url: 'https://threads-lemon-sigma.vercel.app/',
+      githubLink: 'https://github.com/anthonysetiadi/threads',
       technology: [
         {
           id: 1,
-          name: 'React'
-        },
-        {
-          id: 2,
           name: 'Next.js'
         },
         {
+          id: 2,
+          name: 'Typescript'
+        },
+        {
           id: 3,
-          name: 'CSS'
+          name: 'Tailwind CSS'
         }
       ]
     },
     {
       id: 2,
       title: 'Similarity API Dashboard',
-      para: 'Dashboard for a similarity API that compares the similarity between texts',
+      para: 'Full stack dashboard app that generates an API that compares the similarity between texts',
       imageSrc:
         'https://ik.imagekit.io/antz/project-8-screenshot_Sp1Ag9_1B.png?updatedAt=1685584405449',
       githubLink: 'https://github.com/anthonysetiadi/similarity-api-tutorial',
@@ -167,7 +167,7 @@ export default {
         },
         {
           id: 2,
-          name: 'TypeScript'
+          name: 'Typescript'
         },
         {
           id: 3,
