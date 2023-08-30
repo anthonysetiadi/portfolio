@@ -1,6 +1,6 @@
 import Head from 'next/head'
-
 import Layout from '../components/Layout/Layout'
+import { Analytics } from '@vercel/analytics/react'
 import '../styles/globals.css'
 
 function Portfolio({ Component, pageProps }) {
@@ -54,6 +54,7 @@ function Portfolio({ Component, pageProps }) {
         <title>Anthony Setiadi - Homepage</title>
       </Head>
       {content}
+      <Analytics />
     </>
   )
 }
