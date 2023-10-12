@@ -33,8 +33,12 @@ export default {
     'together'
   ],
   //   Hero Paragraph
-  heroParagraph:
-    'A freelance front-end web developer based in Melbourne, Australia. Passionate about tech and making things on the internet.',
+  heroParagraph: [
+    // Line 1
+    'A front-end web developer based in Melbourne, Australia.',
+    // Line 2
+    'Passionate about tech and making things on the internet.'
+  ],
   //Contact Email
   contactEmail: 'hello@antz.dev',
 
@@ -132,6 +136,29 @@ export default {
   projects: [
     {
       id: 1,
+      title: 'Ovatu Aviation',
+      para: `An airport schedule dashboard showing today's flight status and information from major Australian airports`,
+      imageSrc:
+        'https://ik.imagekit.io/antz/Ovatu-aviation-screenshot_IRUbiHUbO.png?updatedAt=1697090396690',
+      url: 'https://ovatu-aviation.vercel.app/',
+      githubLink: 'https://github.com/anthonysetiadi/ovatu-aviation',
+      technology: [
+        {
+          id: 1,
+          name: 'Vue.js'
+        },
+        {
+          id: 2,
+          name: 'JavsScript'
+        },
+        {
+          id: 3,
+          name: 'Tailwind CSS'
+        }
+      ]
+    },
+    {
+      id: 2,
       title: 'Threads Clone',
       para: 'Full stack Threads app clone with working authentication, CRUD posts and communities',
       imageSrc:
@@ -154,7 +181,30 @@ export default {
       ]
     },
     {
-      id: 2,
+      id: 3,
+      title: 'AI Summarizer',
+      para: 'Article summarizer that transforms lengthy web articles into clear and concise summaries',
+      imageSrc:
+        'https://ik.imagekit.io/antz/Sumz-screenshot_zOSlPk383.png?updatedAt=1697088547815',
+      url: 'https://ornate-rolypoly-f0cf96.netlify.app/',
+      githubLink: 'https://github.com/anthonysetiadi/ai-summarizer',
+      technology: [
+        {
+          id: 1,
+          name: 'React'
+        },
+        {
+          id: 2,
+          name: 'Rapid API'
+        },
+        {
+          id: 3,
+          name: 'Tailwind CSS'
+        }
+      ]
+    },
+    {
+      id: 4,
       title: 'Similarity API Dashboard',
       para: 'Full stack dashboard app that generates an API that compares the similarity between texts',
       imageSrc:
@@ -176,9 +226,9 @@ export default {
       ]
     },
     {
-      id: 3,
+      id: 5,
       title: 'Interactive Form',
-      para: 'A form for a mock Full Stack Developers conference',
+      para: 'A form for a mock Full Stack Developers conference featuring dynamic rendering and form validation',
       imageSrc:
         'https://ik.imagekit.io/antz/project-1-screenshot_HNRcxnrYD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658205300386',
       url: 'https://anthonysetiadi.github.io/interactive-form-v3/',
@@ -199,9 +249,9 @@ export default {
       ]
     },
     {
-      id: 4,
+      id: 6,
       title: 'Student Directory',
-      para: 'Fake student directory with data pagination and search functionality',
+      para: 'Mock student directory with data pagination and search functionality',
       imageSrc:
         'https://ik.imagekit.io/antz/project-3-screenshot_JA605D_0g.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658208203960',
       url: 'https://anthonysetiadi.github.io/data-pagination-filtering/',
@@ -222,9 +272,9 @@ export default {
       ]
     },
     {
-      id: 5,
+      id: 7,
       title: 'Startup Directory',
-      para: 'Fake startup directory built with the Random User Public API',
+      para: 'Startup directory built with the Random User Public API, featuring modal and search functionality',
       imageSrc:
         'https://ik.imagekit.io/antz/project-4-screenshot_6VuVKfQVr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658210266458',
       url: 'https://anthonysetiadi.github.io/public-api-requests/',
@@ -245,7 +295,7 @@ export default {
       ]
     },
     {
-      id: 6,
+      id: 8,
       title: 'Phrase Hunter Game',
       para: 'Simple phrase guessing game built with object oriented programming principles',
       imageSrc:
@@ -286,14 +336,14 @@ export default {
       >
         @Ryskape{' '}
       </a>{' '}
-      where we sell cool desk accessories. When I&apos;m not coding, I try my
-      best to keep fit on my road bike cycling or spending time with my wife and
-      three kids.
+      where we sell cool desk accessories. When I&apos;m not coding, you&apos;ll
+      find me riding out and about on my road bike or spending time with my wife
+      and three little kids.
     </span>
   ),
   aboutParaThree: (
     <span>
-      And lastly, I can&apos;t survive without a good cup of coffee{' '}
+      And lastly, I can never get by a single day without a good cup of coffee{' '}
       <span role="img" aria-label="coffe emoji">
         ☕
       </span>
@@ -347,7 +397,7 @@ export default {
 
   promotionHeading: "What's Next",
   promotionParaOne:
-    "I have been learning to code over a year now and am super keen to join a dev team focused on front-end development. If you know anyone who's hiring or would be interested in my skills, please refer me on!",
+    "I have been learning to code over the past 2 years now and am super keen to join a dev team focused on front-end development. If you know anyone who's hiring or would be interested in my skills, please refer me on!",
   promotionParaTwo:
     "Also, I'm currently open to freelance jobs. If you’re keen on making a website, need Shopify theme edits or bug fixes, or just want to chat tech or business - please reach out! I would love to get to know you over a virtual cup of coffee and join me in building the future together.",
   // End Promotion Section -----------------
