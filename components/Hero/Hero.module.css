@@ -23,9 +23,10 @@
   line-height: 24px;
 }
 
-.headerParagraph {
+.paragraphWrapper {
+  margin-top: 10%;
   width: 70%;
-  line-height: 1.5rem;
+  line-height: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,5 +41,10 @@
   .headerParagraph {
     width: 80%;
     font-size: 0.8rem;
+  }
+
+  .paragraphWrapper {
+    width: 80%;
+    margin-top: 1rem;
   }
 }

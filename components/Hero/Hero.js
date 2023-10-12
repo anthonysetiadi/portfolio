@@ -37,7 +37,10 @@ function Hero() {
             <h1>{data.heroTagline[1]}</h1>
             <h1>{data.heroTagline[2]}</h1>
           </div>
-          <p className={styles.heroParagraph}>{data.heroParagraph}</p>
+          <div className={styles.paragraphWrapper}>
+            <p>{data.heroParagraph[0]}</p>
+            <p>{data.heroParagraph[1]}</p>
+          </div>
           <a href="#about" className="primaryBtn">
             Learn More
           </a>
